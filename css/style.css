@@ -23,7 +23,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    }
+}
 
 
 header nav ul {
@@ -32,29 +32,29 @@ header nav ul {
     padding: 0;
     overflow: hidden;
     text-align: left;
-  }
+}
   
   header nav li {
     float: left;
-  }
+}
   
-  header nav li a {
+header nav li a {
     display: block;
     color: black;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
   
-  header nav li a:hover {
+header nav li a:hover {
       color: #0065fc;
       text-underline-offset: -31px;
       text-decoration:underline;
       /*border-top:#0065FC solid 2px;*/
-  }
+}
   
-  header nav {
-  float:right;
+header nav {
+ float: right;
   }
   
   
@@ -62,16 +62,26 @@ header nav ul {
     width: 61.09px;
     height: 19px;
     margin: 30px 50px 30px 50px
+    
     }
 /* searchbar et filtres*/
+.recherche-filtres{
+    display: flex;
+    flex-direction: column;
+  justify-self: flex-start;
+    width: 1340px;
+    height: 281px;
+    gap: 35px;
+   
+ 
+}
+
 .search-bar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
-   
 
- 
+    
 }
 
 ::placeholder {
@@ -80,17 +90,17 @@ header nav ul {
    text-align: center;
     width: 147px;
     height: 21px;
- 
-
+  
   }
 
 .search-box {
     display: flex;
     justify-content: flex-start;
     height: 49px;
-    border-color:transparent;
+    border-color:#F2F2F2;
+    border-style: solid;
    
-
+   
     
   }
 
@@ -98,8 +108,8 @@ header nav ul {
     background-color: #0065FC;
     color: white;
     height: 49px;
-    width: 100px;
-    border-radius: 15px;
+    width: 132px;
+    border-radius: 0 15px 15px 0;
     border-color: transparent;
     font-weight: bold;
   
@@ -109,15 +119,83 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 15px 0 0 15px;
     color:black;
-    background-color: #D9D9D9;
+    background-color: #F2F2F2;
     background-image: 50px;
     height: 49px;
-    width: 50px;
-
-    
+    width: 50px; 
   }
+    /* filtres*/
+
+.filter-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-block: 20px;
+    width: 758px;
+    height: 50px;
+    gap:15px; 
+
+
+}
+.filtre{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+ 
+   
+ }
+
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    background-color:transparent;
+    border-color: #D9D9D9;
+    border-width: 1px;
+    border-radius: 25px 25px 25px 25px ;
+    font-weight: bold;
+    border-style: solid;
+    font-size: 17px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+       
+    }
+
+.btn:hover{
+    background-color: #DEEBFF;
+
+}
+   
+
+
+
+.fa-money-bill-wave{
+     display: flex;
+     align-items: center;
+    width: 22px;
+    height: 22px;
+}
+
+.fa-person{
+    display: flex;
+     align-items: center;
+    width: 22px;
+    height: 22px;
+}
+.fa-heart{
+    display: flex;
+     align-items: center;
+    width: 22px;
+    height:22px;
+}
+.fa-fire{
+    display: flex;
+     align-items: center;
+    width: 22px;
+    height:22px;
+}
 
 .main-container {
     width: 100%;
