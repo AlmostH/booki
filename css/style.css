@@ -16,13 +16,13 @@
 body {
     display: flex;
     justify-content: center;
-    padding:0 50px 0 50px;
+    padding:0 50px;
 
    
 }
 
 section{
- margin: 35px;
+ margin-bottom: 35px;
 }
 /* Header */
     
@@ -242,7 +242,7 @@ header nav {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding-right: 0 50px;
+    margin:50px,0,0,50px ;
     box-sizing: border-box;
 }
 
@@ -304,6 +304,8 @@ a {
     width: 100%;
     display: flex;
     flex-direction:column;
+    width: 250px;
+    height: 192px;
 }
 .hebergements-cards img {
     height: 124px;
@@ -318,13 +320,15 @@ a {
     padding-left: 15px;
     display: flex;
     flex-direction: column;
+  
 }
 
 .hebergements-line {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     gap:30px;
     padding: 30px;
+    box-sizing: border-box;
     
 }
 .hebergements-cards .card-title {
@@ -427,22 +431,30 @@ display: flex;
 }
 
 /*Footer*/
-footer{
-    background-color: #F2F2F2;
+footer {
     display: flex;
-    align-items: flex-start;
-   justify-content: space-around;
-   margin:50px,0,0,50px ;
+    background-color: #F2F2F2; 
+    margin-left: 50px;
+    margin-right: 50px;
+    width:100%
+}
+
+footer div {
+    width: 30%;
+    display: flex;
     padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+   
+}
+footer a{
+  text-decoration: none;
+  
 }
 
-footer li  {
-    text-decoration: none;
-    list-style-type: none;
      
-}
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
