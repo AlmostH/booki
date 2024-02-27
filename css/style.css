@@ -596,7 +596,9 @@ body{
     header nav li  {
         width: 50%;
     }
-
+    header nav li a{
+        padding:0;
+}
     header nav li a:hover {
         color: #0065fc;
         border-bottom: #0065FC solid 2px;
