@@ -124,21 +124,26 @@ header nav li a:hover {
     width: 61.09px;
     height: 19px;
     padding: 30px 0;
-
-    
     
     }
 /* searchbar et filtres*/
+
+
+
+
 .recherche-filtres{
     display: flex;
     flex-direction: column;
   justify-self: flex-start;
     gap: 35px;
-
-
+}
+    
+.recherche-title p {
+    margin-top: 8px;
+}
    
  
-}
+
 
 .search-bar {
     display: flex;
@@ -297,6 +302,9 @@ header nav li a:hover {
     width: 65%;
 }
 
+.hebergements-subtitle{
+    font-size: 18px;
+}
 
 .hebergements-cards a {
     width: 30%;
