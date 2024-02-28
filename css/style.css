@@ -648,9 +648,8 @@ body{
     .hebergements-cards a {
         width: 100%;
     }
-    .hebergements-title{
-    text-wrap: nowrap;
-    }
+
+
     .activites{
       gap:15px;
     }
