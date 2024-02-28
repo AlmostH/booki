@@ -125,19 +125,16 @@ header nav li a:hover {
 /************* searchbar et filtres****************/
 
 
-.recherche-filtres{
+.search-filters{
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
     
-.recherche-title p {
+.search-title p {
     margin-top: 8px;
 }
    
- 
-
-
 .search-bar {
     display: flex;
     justify-content: flex-start;
@@ -197,7 +194,7 @@ header nav li a:hover {
     gap:15px; 
 }
 
-.filtre{
+.filters{
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -477,7 +474,7 @@ footer div h3{
         flex-direction: column;
     }
 
-    .filtre {
+    .filters {
         margin: 0px;
     }
 
@@ -591,7 +588,7 @@ footer div h3{
     }
   
 /********** Filtres et Recherche ************/
-    .recherche-filtres{
+    .search-filters{
     padding: 0 20px;
     }
 /* changer le texte en loupe*/
