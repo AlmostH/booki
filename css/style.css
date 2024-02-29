@@ -122,7 +122,7 @@ header nav li a:hover {
 }
 
 
-/************* searchbar et filtres****************/
+/************* searchbar et filtres  ****************/
 
 
 .search-filters{
@@ -156,6 +156,7 @@ header nav li a:hover {
     border-color:#F2F2F2;
     border-style: solid;
     width: 195px;
+    outline :none;
   }
 
 .search-button {
