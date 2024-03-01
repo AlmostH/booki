@@ -157,6 +157,7 @@ header nav li a:hover {
     border-style: solid;
     width: 195px;
     outline :none;
+    font-weight: bold;
   }
 
 .search-button {
@@ -290,6 +291,8 @@ header nav li a:hover {
 
 .hebergements-cards a {
     width: 30%;
+    display: flex;
+   
 
 }  
 
@@ -397,10 +400,7 @@ header nav li a:hover {
 
     border-radius: 20px 20px 0px 0px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 30px;
-    align-items: center;
 }
 
 .activites .card{
@@ -522,10 +522,6 @@ footer div h3{
 
     /************ Activités ***********/
 
-    .activites .card-title {
-        padding: 0px;
-    }
-
     .activites .card {
         padding: 0px;
         height: 270px;
@@ -537,12 +533,16 @@ footer div h3{
     .activites .card-content {
         height: 70px;
     }
+    .activites .card-content .card-title{
+        margin: 0;
+        padding: 15px 0 0 15px;
+    }
 
 }
 
 /**********Small devices (phones, less than 768px) ************/
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
     /******** main ************/
     body{
@@ -646,6 +646,7 @@ footer div h3{
 
     .hebergements-cards a {
         width: 100%;
+    
     }
 
     /******* Populaires ********/
@@ -689,6 +690,9 @@ footer div h3{
 
     footer div{
         padding:0
+    }
+    footer a{
+        text-wrap: nowrap;
     }
     
 }
