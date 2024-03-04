@@ -290,7 +290,7 @@ header nav li a:hover {
 }
 
 .hebergements-cards a {
-    width: 30%;
+    width: 29%;
     display: flex;
    
 
@@ -442,7 +442,7 @@ footer div {
     text-decoration: none;  
 }
 
-footer div h3{
+footer div h2{
   margin:0;
  /* eviter le gap entre titre et liens*/
    font-size: 18px;
@@ -597,6 +597,20 @@ footer div h3{
         display: block;
     }
 
+    .search-bar {
+    /*    border-style: solid;
+        border-width: 2px;
+        border-radius: 18px;
+        border-color: #F2F2F2;*/
+    }
+    .search-box {
+        width: 100%;
+        /*border-style: none;*/
+        border-left: none;
+        border-right: none;
+        margin: 0 -10px;
+    }
+
     .search-mobile .fa-solid {
         color: white;
     }
@@ -608,6 +622,9 @@ footer div h3{
     .search-button {
         height: 49px;
         width: 50px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 15px 16px;
+        border-radius: 15px;
     }
 
     .btn-container{
@@ -617,7 +634,8 @@ footer div h3{
     }
 
     .btn-container .btn {
-        width: min(130px);
+       min-width:130px;
+       width: 40%;
         font-size: 14px;
     }
 
